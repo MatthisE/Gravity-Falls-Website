@@ -80,31 +80,31 @@ p{
 } 
 
 main{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-auto-rows: minmax(100px, auto);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
     grid-gap: 10px;
 
-	grid-template-areas: 
-		"Inhalt Inhalt"
-		"Fabelwesen Bill_Cipher"
-		"Charaktere Charaktere";
+    grid-template-areas: 
+	"Inhalt Inhalt"
+	"Fabelwesen Bill_Cipher"
+	"Charaktere Charaktere";
 }
 
 #Inhalt{
-	grid-area: Inhalt;
+    grid-area: Inhalt;
 }
 
 #Fabelwesen{
-	grid-area: Fabelwesen;
+    grid-area: Fabelwesen;
 }
 
 #Bill_Cipher{
-	grid-area: Bill_Cipher;
+    grid-area: Bill_Cipher;
 }
 
 #Charaktere{
-	grid-area: Charaktere;
+    grid-area: Charaktere;
 }
 
 td{
