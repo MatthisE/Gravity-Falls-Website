@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8"> 
+		<title>Willkommen in Gravity Falls</title>
+		<link href="styles/GravityFalls.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width-device-width, initial scale=1.0">
+	</head>
+
+    <body>
+        <header class="class1 class2">
+            <h1>Willkommen in Gravity Falls</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#link1">Welt</a></li>
+                <li><a href="#link2">Gewinnspiel</a></li>
+                <li><a href="#link3">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <br>
+        <h1 id="link1">Welt</h1>
+
+        <main>
+            <article id = "Inhalt">
+                <h2>Inhalt</h2>
+
+                <img src="pics/inhalt.jpg" alt="Gruppenbild der Hauptfiguren">
+                <!-- Bildquelle: "https://screenrant.com/gravity-falls-disney-dipper-pines/"-->
+
+                <p>Die zwölfjährigen Zwillinge <strong>Dipper</strong> und <strong>Mabel</strong> werden von ihren Eltern nach Gravity Falls, einem
+                    fiktiven Ort in Oregon, geschickt,um dort die Sommerferien bei ihrem Großonkel ("Gronkel") Stan 
+                    zu verbringen. Dieser besitzt ein bizarres Kuriositätenmuseum, die Mystey Shack. Dort sollen 
+                    Dipper und Mabel aushelfen.
+                </p>
+                <p>
+                    Schon bei ihrer Ankunft merken die Zwillinge, dass in Gravity Falls alles nur purer Schein ist 
+                    und die Umgebung von paranormalen Phänomenen heimgesucht wird. Fabelwesen, Ungeheuer und habgierige 
+                    Bewohner von Gravity Falls bescheren den Kindern immer wieder unglaubliche Abenteuer.
+                </p>
+                <p>
+                    Geheimnisvolle Bücher mit sechsfingerigen Handsymbolen dienen Dipper und Mabel als Informationsquelle 
+                    und Wegweiser. Seit dem Auffinden dieser Bücher sind die Zwillinge auf der Suche nach Antworten und 
+                    dem verschollenen Autor, denn dieser scheint fast alles über Gravity Falls zu wissen.
+                </p> <!-- Textquelle: "https://de.wikipedia.org/wiki/Willkommen_in_Gravity_Falls"-->
+            </article>
+
+            <article id = "Fabelwesen">
+                <h2>Fabelwesen</h2>
+                
+                <p>In Gravity Falls wimmelt es nur so von magischen Kreaturen!</p>
+                <p>Unsre Unfrage hat folgende Fan-Favorites ergeben:</p>
+                <ol>
+                    <li>Zwerge</li>
+                    <li>Mannotauren</li>
+                    <li>Lilliputtiner</li>
+                    <li>Sommerween-Monster</li>
+                    <li>Gestaltwandler</li>
+                </ol>
+            </article>
+
+            <article id = "Bill_Cipher">
+                <h2>Bill Cipher</h2>
+                
+                <img src="pics/Bill.png" alt="Bill Cipher" id="Billd">
+                <!-- Bildquelle: "https://www.pinterest.de/pin/361625045079911998/"-->
+
+
+                <p>Die vermutlich bekannteste Figur aus Gravity Falls ist Bill Cipher. Dieser dreieckige Wicht war ein Traumdämon, 
+                    welcher aus der Gedankenwelt stammt, der sich Zugang zu unserer Welt gewünscht hat. Seitdem er vor über dreißig 
+                    Jahren von Ford Pines in die echte Welt gerufen wurde, versucht er seine Dimension mit unserer zu verbinden. 
+                    Er ist für ein mysteriöses Auftreten und seinen sadistischen Humor bekannt. Seit dem Ende von Staffel 1, ist er 
+                    der Hauptantagonist der Serie.
+                </p> <!-- Textquelle: "https://gravityfalls.fandom.com/de/wiki/Bill_Cipher"-->
+            </article>
+
+            <article id = "Charaktere">
+                <h2>Charaktere</h2>
+                
+                <table>
+                    <tr>
+                        <td>Dipper</td>
+                        <td>Mabel</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>neugierig</li>
+                                <li>Angsthase</li>
+                                <li>Nerd</li>
+                                <li>schüchtern</li>
+                                <li>in Wendy verknallt</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>albern</li>
+                                <li>selbstbewusst</li>
+                                <li>strickt gern Pullover</li>
+                                <li>hat ein Schwein namens "Schwabbel"</li>
+                                <li>liebenswürdig</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+            </article>
+
+        </main>
+
+        <br>
+        <h1 id="link2">Gewinnspiel</h1>
+        <div class="Erklärung">
+        <p>Du hast Interesse an Gravity Falls Merchandise? Dann nehm an unserem Gewinnspiel teil! Sag uns einfach, welche der sechs 
+            Figuren dein Lieblingscharakter ist und begründe es! Unsere zehn Lieblingseinsendungen erhalten ein Objekt deiner Wahl 
+            (bitte Objekt und Hintergrundfarbe wählen) mit dieser Illustration drauf:
+        </p>
+            <img src="pics/Gewinn2.png" alt="Dipper und Mabel">
+            <!-- Bildquelle: "https://www.pinterest.pt/pin/326581410460688452/"-->
+        <p>
+            Wir freuen uns auf deine Einsendungen. Viel Glück!
+        </p>
+        </div>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Deine Daten</legend>
+                
+                <label for="schrift">Name:</label>
+                <input id="schrift" type="text" size="30" maxlength="30" placeholder="Dipper Pines" required><br>
+                
+                <label for="zahl">Alter:</label>
+                <input id="zahl" type="number" min="0" value="12" required><br>
+                
+                <label for="mail">E-Mail:</label>
+                <input id="mail" type="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gewinn</legend>
+                <label for="o1">Tasse</label>
+                <input id="o1" type="radio" name="optionen" value="1">
+                
+                <label for="o2">Shirt</label>
+                <input id="o2" type="radio" name="optionen" value="2">
+
+                <label for="o3">Poster</label>
+                <input id="o3" type="radio" name="optionen" value="3">
+                
+                <label for="farbwaehler">Farbwähler</label>
+                <input id="farbwaehler" type="color">
+            </fieldset>
+
+            <fieldset>
+                <legend>Lieblingscharakter</legend>
+                <label for="optionen">Optionen:</label>
+                <select id="optionen">
+                    <option value="o1">Dipper</option>
+                    <option value="o2">Mabel</option>
+                    <option value="o3">Stan</option>
+                    <option value="o4">Soos</option>
+                    <option value="o5">Wendy</option>
+                    <option value="o6">Bill</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Begründung</legend>
+                <label for="text">Hier:</label>
+                <textarea id="text">Hier kann man reinschreiben.</textarea>
+            </fieldset>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+
+        <br>
+            <h1 id="link3">Quiz</h1>
+
+            <form id="versuch" onsubmit="funktion(this)">
+                <div>
+                    <label>In wen ist Dipper verknallt?</label>
+                    <input id="antwort" type="text" size="30" maxlength="30" placeholder="Antwort" required>
+                </div>
+                <button id="button" type="submit">check</button>
+            </form>
+        
+            <h2 id="adresse"> </h2>
+
+        <br>
+        <footer>
+            <p>website made by Matthis Ehrhardt</p>
+        </footer>
+
+        <script>
+
+            function funktion(myform){
+                event.preventDefault();
+                let antwort = myform.antwort.value
+
+                let myErgebnis = document.getElementById("adresse");
+                if(antwort == "Wendy"){
+                    myErgebnis.innerText = "Das ist richtig!";
+                }
+                else{
+                    myErgebnis.innerText = antwort +" ist falsch! Versuch es erneut.";
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
